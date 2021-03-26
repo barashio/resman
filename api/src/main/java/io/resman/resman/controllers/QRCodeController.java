@@ -4,9 +4,9 @@ import io.resman.resman.models.QRCodeGenerator;
 import org.json.JSONObject;
 import org.springframework.web.bind.annotation.*;
 
-import javax.servlet.http.HttpServletRequest;
 import java.util.Base64;
 
+@CrossOrigin(maxAge = 3600)
 @RestController
 public class QRCodeController {
     private static final String QR_CODE_IMAGE_PATH = "./src/main/resources/QRCode.png";
