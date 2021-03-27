@@ -1,7 +1,7 @@
 const categoryList = document.querySelector('.accordion-button');
 var div = document.getElementById("menu");
 
-const url = 'http://localhost:8082/api/restaurant/605c9c419dff59756fa713ce';
+const url = 'http://localhost:8082/api/restaurant/605f8fd7d1333d083a66ab20';
 
 function fetchMenu() {
     fetch(url)
@@ -33,10 +33,10 @@ function fetchMenu() {
             const html = data.menu[0].categories.map(data => {
                 var categoryName = data.name;
 
-                var productImage = data.products[0].image
-                var productName = data.products[0].name
-                var productDescription = data.products[0].description
-                var productPrice = data.products[0].price
+                var productImage = data.products[1].image
+                var productName = data.products[1].name
+                var productDescription = data.products[1].description
+                var productPrice = data.products[1].price
 
                 return `
                     <div class="accordion-item">

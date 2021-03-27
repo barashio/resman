@@ -55,7 +55,7 @@ public class DbSeeder implements CommandLineRunner {
                                                         new Product(
                                                                 ObjectId.get(),
                                                                 "https://live.staticflickr.com/4163/34554742702_b54131e9f3_b.jpg",
-                                                                "Chicken Doned",
+                                                                "Chicken Doner",
                                                                 "Small",
                                                                 4.99
                                                         ),
