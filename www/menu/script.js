@@ -125,7 +125,9 @@
 //   ],
 // };
 
-fetch('http://localhost:8082/api/restaurant/605fb98ef827507ad0b34df4')
+var id = '605fd98db206ac38f25c5f5b';
+
+fetch(`http://localhost:8082/api/restaurant/${id}`)
   .then(response => response.json())
   .then(data => {
     const { menu } = data;
@@ -136,7 +138,7 @@ fetch('http://localhost:8082/api/restaurant/605fb98ef827507ad0b34df4')
 
     const RenderHtml = () => {
         const getProducts = (i) => {
-            
+            console.log(i);
             const ItemsRendered = []
             ItemsRendered.push(`                    <div class="accordion-item">
             <h2 class="accordion-header" id="flush-heading${i}">
@@ -145,6 +147,7 @@ fetch('http://localhost:8082/api/restaurant/605fb98ef827507ad0b34df4')
                 </button>
             </h2>`)
             for(x of productsList[i]){
+                console.log(x.image, x.name, x.description, x.price);
                 ItemsRendered.push(`
                 <div id="flush-collapse${i}" class="accordion-collapse collapse" aria-labelledby="flush-heading${i}" data-bs-parent="#accordionFlush">
                 <div class="accordion-body">
@@ -181,14 +184,7 @@ fetch('http://localhost:8082/api/restaurant/605fb98ef827507ad0b34df4')
       document
         .querySelector("#accordionFlush")
         .insertAdjacentHTML("afterbegin", finalRender());
-
     };
-
     RenderHtml();
-
-
-
-    
-
   });
 

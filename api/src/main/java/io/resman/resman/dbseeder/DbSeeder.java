@@ -32,87 +32,110 @@ public class DbSeeder implements CommandLineRunner {
                                 Arrays.asList(
                                         new Category(
                                                 ObjectId.get(),
-                                                "Drinks",
+                                                "Meat",
                                                 Arrays.asList(
                                                         new Product(
                                                                 ObjectId.get(),
-                                                                "https://images.squarespace-cdn.com/content/v1/5ca3b2217980b3338106d9bf/1586875728811-MMCQS9KHUQ4OVWV9D4LE/ke17ZwdGBToddI8pDm48kJUlZr2Ql5GtSKWrQpjur5t7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UYapt4KGntwbjD1IFBRUBU6SRwXJogFYPCjZ6mtBiWtU3WUfc_ZsVm9Mi1E6FasEnQ/11.png?format=2500w",
-                                                                "Fanta",
-                                                                "330ml",
-                                                                1.99),
+                                                                "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+                                                                "Chicken Doner Large",
+                                                                "Served with salad, pita bread and sauce.",
+                                                                8.99),
                                                         new Product(
                                                                 ObjectId.get(),
-                                                                "https://cdn11.bigcommerce.com/s-2fq65jrvsu/images/stencil/1280x1280/products/772/1895/d-coke-can_4__88515.1592026059.jpg?c=1",
-                                                                "Coka Cola",
-                                                                "330ml",
-                                                                1.99)
-                                                )
-                                        ),
-                                        new Category(
-                                                ObjectId.get(),
-                                                "Doners",
-                                                Arrays.asList(
+                                                                "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+                                                                "Lamb Doner Large",
+                                                                "Served with salad, pita bread and sauce.",
+                                                                8.99),
                                                         new Product(
                                                                 ObjectId.get(),
-                                                                "https://live.staticflickr.com/4163/34554742702_b54131e9f3_b.jpg",
-                                                                "Chicken Doner",
-                                                                "Small",
-                                                                4.99
-                                                        ),
+                                                                "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+                                                                "Chicken Meat and Chips",
+                                                                "Served with salad, pita bread and sauce.",
+                                                                10.99),
                                                         new Product(
                                                                 ObjectId.get(),
-                                                                "https://i.redd.it/hta7nztex5511.jpg",
-                                                                "Chicken Doner",
-                                                                "Large",
-                                                                6.99
-                                                        ),
+                                                                "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+                                                                "Lamb Meat and Chips",
+                                                                "Served with salad, pita bread and sauce.",
+                                                                10.99),
                                                         new Product(
                                                                 ObjectId.get(),
-                                                                "https://i.redd.it/hta7nztex5511.jpg",
-                                                                "Lamb Doner",
-                                                                "Small",
+                                                                "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+                                                                "Chicken Wrap",
+                                                                "Served with salad or chips (inside)",
                                                                 6.99),
                                                         new Product(
                                                                 ObjectId.get(),
-                                                                "https://i.redd.it/hta7nztex5511.jpg",
-                                                                "Lamb Doner",
-                                                                "Large",
-                                                                8.99
-                                                        )
+                                                                "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+                                                                "Lamb Wrap",
+                                                                "Served with salad or chips (inside)",
+                                                                6.99),
+                                                        new Product(
+                                                                ObjectId.get(),
+                                                                "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+                                                                "Mix Meat Wrap",
+                                                                "Served with salad or chips (inside)",
+                                                                8.99),
+                                                        new Product(
+                                                                ObjectId.get(),
+                                                                "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+                                                                "Lamb Shish",
+                                                                "Served with salad, pita bread and sauce.",
+                                                                12.99),
+                                                        new Product(
+                                                                ObjectId.get(),
+                                                                "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+                                                                "Chicken Shish",
+                                                                "Served with salad, pita bread and sauce.",
+                                                                11.99),
+                                                        new Product(
+                                                                ObjectId.get(),
+                                                                "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+                                                                "Mix Lamb & Chicken Shish",
+                                                                "Served with salad, pita bread and sauce.",
+                                                                14.99)
                                                 )
                                         ),
                                         new Category(
                                                 ObjectId.get(),
-                                                "Wraps",
+                                                "Pizza",
                                                 Arrays.asList(
                                                         new Product(
                                                                 ObjectId.get(),
-                                                                "https://i.redd.it/hta7nztex5511.jpg",
-                                                                "Chicken Wrap",
-                                                                "Small",
-                                                                3.99
-                                                        ),
+                                                                "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+                                                                "10 Inch Any 3 Toppings",
+                                                                "Choose from salami, beef, chicken, sausage, haloumi, olives, peppers, mushrooms, sweetcorn, onions, fresh tomatoes, chillies .",
+                                                                8.99),
                                                         new Product(
                                                                 ObjectId.get(),
-                                                                "https://i.redd.it/hta7nztex5511.jpg",
-                                                                "Chick Wrap",
-                                                                "Large",
-                                                                5.99
-                                                        ),
+                                                                "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+                                                                "12 Inch Any 3 Toppings",
+                                                                "Choose from salami, beef, chicken, sausage, haloumi, olives, peppers, mushrooms, sweetcorn, onions, fresh tomatoes, chillies .",
+                                                                10.99)
+                                                )
+                                        ),
+                                        new Category(
+                                                ObjectId.get(),
+                                                "Other",
+                                                Arrays.asList(
                                                         new Product(
                                                                 ObjectId.get(),
-                                                                "https://i.redd.it/hta7nztex5511.jpg",
-                                                                "Lamb Wrap",
-                                                                "Small",
-                                                                5.99
-                                                        ),
+                                                                "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+                                                                "Falafel Wrap",
+                                                                "Choose with salad or chips.",
+                                                                7.99),
                                                         new Product(
                                                                 ObjectId.get(),
-                                                                "https://i.redd.it/hta7nztex5511.jpg",
-                                                                "Lamb Wrap",
-                                                                "Large",
-                                                                6.99
-                                                        )
+                                                                "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+                                                                "Salad Only",
+                                                                "",
+                                                                3.99),
+                                                        new Product(
+                                                                ObjectId.get(),
+                                                                "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+                                                                "Chips Only",
+                                                                "",
+                                                                3.99)
                                                 )
                                         )
                                 )
@@ -124,103 +147,12 @@ public class DbSeeder implements CommandLineRunner {
                 )
         );
 
-        Restaurant uludagGrill = new Restaurant(
-                ObjectId.get(),
-                "Uludag Charcoal Kebab",
-                new Address(5, "Vicarage Parade,", "London", "N15 3BL"),
-                "contact@uludagcharcoalkebab.com",
-                "0123456789",
-                Arrays.asList(
-                        new Menu(
-                                ObjectId.get(),
-                                Arrays.asList(
-                                        new Category(
-                                                ObjectId.get(),
-                                                "Drinks",
-                                                Arrays.asList(
-                                                        new Product(
-                                                                ObjectId.get(),
-                                                                "https://i.redd.it/hta7nztex5511.jpg",
-                                                                "Sarikiz",
-                                                                "250ml",
-                                                                2.99
-                                                        ),
-                                                        new Product(
-                                                                ObjectId.get(),
-                                                                "https://i.redd.it/hta7nztex5511.jpg",
-                                                                "Ayran",
-                                                                "330ml",
-                                                                2.99
-                                                        )
-                                                )
-                                        ),
-                                        new Category(
-                                                ObjectId.get(),
-                                                "Burgers",
-                                                Arrays.asList(
-                                                        new Product(
-                                                                ObjectId.get(),
-                                                                "https://i.redd.it/hta7nztex5511.jpg",
-                                                                "Quarter Pounder",
-                                                                "Small",
-                                                                5.99
-                                                        ),
-                                                        new Product(
-                                                                ObjectId.get(),
-                                                                "https://i.redd.it/hta7nztex5511.jpg",
-                                                                "Half Pounder ",
-                                                                "Large",
-                                                                8.99
-                                                        )
-                                                )
-                                        ),
-                                        new Category(
-                                                ObjectId.get(),
-                                                "Wraps",
-                                                Arrays.asList(
-                                                        new Product(
-                                                                ObjectId.get(),
-                                                                "https://i.redd.it/hta7nztex5511.jpg",
-                                                                "Chicken Wrap",
-                                                                "Small",
-                                                                3.99),
-                                                        new Product(
-                                                                ObjectId.get(),
-                                                                "https://i.redd.it/hta7nztex5511.jpg",
-                                                                "Chick Wrap",
-                                                                "Large",
-                                                                5.99
-                                                        ),
-                                                        new Product(
-                                                                ObjectId.get(),
-                                                                "https://i.redd.it/hta7nztex5511.jpg",
-                                                                "Lamb Wrap",
-                                                                "Small",
-                                                                5.99
-                                                        ),
-                                                        new Product(
-                                                                ObjectId.get(),
-                                                                "https://i.redd.it/hta7nztex5511.jpg",
-                                                                "Lamb Wrap",
-                                                                "Large",
-                                                                6.99
-                                                        )
-                                                )
-                                        )
-                                )
-                        )
-                ),
-                Arrays.asList(
-                        new Review(ObjectId.get(),"John Smith", "Good food, nice staff", 5, false),
-                        new Review(ObjectId.get(),"Bob Man", "Best grill in town!", 5, false)
-                )
-        );
 
         // drop all restaurants
         this.restaurantRepository.deleteAll();
 
         // add our restaurants to the database
-        List<Restaurant> restaurants = Arrays.asList(napoliPizza, uludagGrill);
+        List<Restaurant> restaurants = Arrays.asList(napoliPizza);
         this.restaurantRepository.saveAll(restaurants);
     }
 }
