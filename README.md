@@ -22,8 +22,14 @@ To run the project with Maven, type ```./mvnw spring-boot:run``` the ```api``` f
 
 ```https://www.djamware.com/post/5b2f000880aca77b083240b2/spring-boot-security-and-data-mongodb-authentication-example```
 
+```https://bezkoder.com/spring-boot-jwt-auth-mongodb/#Spring_Boot_JWT_Authentication_with_MongoDB_example```
+
+```https://morioh.com/p/f4ebf8af7c66```
+
+
 ## Useful to Read
 - Fetch: Cross-Origin Requests:
 ```https://javascript.info/fetch-crossorigin```
+
 
 

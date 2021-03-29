@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.Base64;
 
-@CrossOrigin(maxAge = 3600)
+@CrossOrigin(origins = "*", maxAge = 3600)
 @RestController
 public class QRCodeController {
     private static final String QR_CODE_IMAGE_PATH = "./src/main/resources/QRCode.png";
