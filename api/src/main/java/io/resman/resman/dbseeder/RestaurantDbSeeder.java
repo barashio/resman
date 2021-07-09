@@ -11,10 +11,10 @@ import java.util.List;
 
 
 @Component
-public class DbSeeder implements CommandLineRunner {
+public class RestaurantDbSeeder implements CommandLineRunner {
     private RestaurantRepository restaurantRepository;
 
-    public DbSeeder(RestaurantRepository restaurantRepository) {
+    public RestaurantDbSeeder(RestaurantRepository restaurantRepository) {
         this.restaurantRepository = restaurantRepository;
     }
 

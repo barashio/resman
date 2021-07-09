@@ -23,7 +23,6 @@ public class RestaurantController {
         return restaurantRepository.findAll();
     }
 
-
     @PutMapping("/new")
     public void insert(@RequestBody Restaurant restaurant) {
         this.restaurantRepository.insert(restaurant);
@@ -44,5 +43,4 @@ public class RestaurantController {
     public void delete(@PathVariable("id") String _id) {
         this.restaurantRepository.deleteById(_id);
     }
-
 }

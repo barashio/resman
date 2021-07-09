@@ -8,5 +8,4 @@ public class ResmanApplication {
     public static void main(String[] args) {
         SpringApplication.run(ResmanApplication.class, args);
     }
-
 }

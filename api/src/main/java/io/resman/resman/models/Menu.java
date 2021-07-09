@@ -7,9 +7,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import java.util.ArrayList;
 import java.util.List;
 
-@Document(collection = "Menus")
 public class Menu {
-
     @Id
     private ObjectId _id;
     private List<Category> categories;
