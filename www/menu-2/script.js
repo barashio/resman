@@ -125,7 +125,7 @@
 //   ],
 // };
 
-var id = '60db3a9340c8957b2d93573a';
+var id = '60ec0b373c5e7c2c061f29bd';
 
 fetch(`http://localhost:8082/api/restaurant/${id}`)
   .then(response => response.json())

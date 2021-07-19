@@ -9,5 +9,4 @@ public class CustomerCart {
     @Id
     private ObjectId _id;
     private int tableNumber;
-
 }
